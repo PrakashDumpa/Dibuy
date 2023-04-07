@@ -11,7 +11,7 @@ const ProductItem = (props) => {
   return (
     <li className="col-md-3 col-12  p-2">
       <Link to={`/product/${_id}`} className="link">
-        <div className="card border d-flex flex-column p-3">
+        <div className=" border d-flex flex-column p-3">
           <div className="mb-2 ">
             <img
               src={imageUrl}
